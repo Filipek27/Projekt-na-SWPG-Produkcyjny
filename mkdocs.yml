@@ -1,1 +1,6 @@
 site_name: Poradnik Statystyka Excel
+
+theme:
+  name: mkdocs
+  color_mode: auto
+  user_color_mode_toggle: true
