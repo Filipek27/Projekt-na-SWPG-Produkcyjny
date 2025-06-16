@@ -1,6 +1,21 @@
 site_name: Poradnik Statystyka Exccel
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      media: '(prefers-color-scheme: light)'
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      media: '(prefers-color-scheme: dark)'
 
 extra_css:
   - assets/css/custom.css
