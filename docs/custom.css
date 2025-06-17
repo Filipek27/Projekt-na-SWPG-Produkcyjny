@@ -1,0 +1,64 @@
+/* custom.css - styl nawiązujący do nowego Excela */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #202020;
+  line-height: 1.6;
+}
+
+.md-header {
+  background-color: #107C10; /* zielony jak w Excelu */
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.md-nav__title {
+  color: #107C10;
+  font-weight: 700;
+}
+
+.md-nav__link--active {
+  background-color: #D6F2D6;
+  border-left: 4px solid #107C10;
+  font-weight: 700;
+}
+
+.md-content {
+  padding: 20px 40px;
+  background: #FAFAFA;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3, h4 {
+  color: #107C10;
+  font-weight: 700;
+}
+
+a {
+  color: #107C10;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #E8F5E9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}
+
+.md-footer {
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
