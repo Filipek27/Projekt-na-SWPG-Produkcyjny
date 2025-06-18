@@ -4,29 +4,29 @@ Microsoft Excel oferuje wiele funkcji statystycznych, które pozwalają szybko a
 
 ## 📊 Miary tendencji centralnej
 
-- **ŚREDNIA (`AVERAGE`)**  
+- **ŚREDNIA (`ŚREDNIA`)**  
   Zwraca średnią arytmetyczną dla podanego zakresu.  
-  **Przykład:** `=AVERAGE(A1:A10)`
+  **Przykład:** `=ŚREDNIA(A1:A10)`
 
-- **MEDIANA (`MEDIAN`)**  
+- **MEDIANA (`MEDIANA`)**  
   Zwraca wartość środkową z zestawu danych.  
-  **Przykład:** `=MEDIAN(A1:A10)`
+  **Przykład:** `=MEDIANA(A1:A10)`
 
-- **MODA (`MODE.SNGL` / `MODE.MULT`)**  
+- **MODA (`WYST.NAJCZĘŚCIEJ.WART` / `WYST.NAJCZĘŚCIEJ.TABL`)**  
   Zwraca wartość najczęściej występującą w zestawie danych.  
-  **Przykład:** `=MODE.SNGL(A1:A10)`
+  **Przykład:** `=WYST.NAJCZĘŚCIEJ.WART(A1:A10)`
 
 ## 📐 Miary rozproszenia
 
-- **ODCHYLENIE STANDARDOWE (`STDEV.S`, `STDEV.P`)**  
+- **ODCHYLENIE STANDARDOWE (`ODCH.STANDARD.PRÓBKI`, `ODCH.STAND.POPUL`)**  
   Mierzy, jak bardzo wartości różnią się od średniej.  
-  - `STDEV.S` – dla próbki  
-  - `STDEV.P` – dla całej populacji  
-  **Przykład:** `=STDEV.S(A1:A10)`
+     - `ODCH.STANDARD.PRÓBKI` – dla próbki  
+     - `ODCH.STAND.POPUL` – dla całej populacji  
+  **Przykład:** `=ODCH.STANDARD.PRÓBKI(A1:A10)`
 
-- **WARIANCJA (`VAR.S`, `VAR.P`)**  
+- **WARIANCJA (`WARIANCJA.PRÓBKI`, `WARIANCJA.POP`)**  
   Kwadrat odchylenia standardowego.  
-  **Przykład:** `=VAR.S(A1:A10)`
+  **Przykład:** `=WARIANCJA.PRÓBKI(A1:A10)`
 
 - **ZAKRES (`MAX` - `MIN`)**  
   Różnica między największą a najmniejszą wartością.  
@@ -43,13 +43,13 @@ Microsoft Excel oferuje wiele funkcji statystycznych, które pozwalają szybko a
 
 ## 🔗 Korelacje i współczynniki
 
-- **KORELACJA (`CORREL`)**  
+- **KORELACJA (`WSP.KORELACJI`)**  
   Oblicza współczynnik korelacji Pearsona między dwiema zmiennymi.  
-  **Przykład:** `=CORREL(A1:A10, B1:B10)`
+  **Przykład:** `=WSP.KORELACJI(A1:A10, B1:B10)`
 
-- **WSPÓŁCZYNNIK DETERMINACJI (`RSQ`)**  
+- **WSPÓŁCZYNNIK DETERMINACJI (`R.KWADRAT`)**  
   Zwraca wartość \( R^2 \), czyli dopasowanie liniowe.  
-  **Przykład:** `=RSQ(A1:A10, B1:B10)`
+  **Przykład:** `=R.KWADRAT(A1:A10, B1:B10)`
 
 ## 📉 Analiza regresji i prognozowanie
 
@@ -67,17 +67,17 @@ Microsoft Excel oferuje wiele funkcji statystycznych, które pozwalają szybko a
 
 ## 🧮 Inne funkcje statystyczne
 
-- **LICZ.JEŻELI (`COUNTIF`)**  
+- **LICZ JEŻELI (`LICZ.JEŻELI`)**  
   Liczy, ile komórek spełnia dany warunek.  
-  **Przykład:** `=COUNTIF(A1:A10, ">100")`
+  **Przykład:** `=LICZ.JEŻELI(A1:A10, ">100")`
 
-- **PERCENTYL (`PERCENTILE.INC`, `PERCENTILE.EXC`)**  
+- **PERCENTYL (`PERCENTYL.PRZED.ZAMK`, `PERCENTYL.PRZED.OTW`)**  
   Zwraca wartość dla danego percentyla.  
-  **Przykład:** `=PERCENTILE.INC(A1:A10, 0.9)`
+  **Przykład:** `=PERCENTYL.PRZED.ZAMK(A1:A10, 0.9)`
 
-- **KWARTYL (`QUARTILE.INC`, `QUARTILE.EXC`)**  
+- **KWARTYL (`KWARTYL.PRZED.ZAMK`, `KWARTYL.PRZED.OTW`)**  
   Oblicza kwartyle (np. Q1, Q2, Q3).  
-  **Przykład:** `=QUARTILE.INC(A1:A10, 3)`
+  **Przykład:** `=KWARTYL.PRZED.ZAMK(A1:A10, 3)`
 
 - **AVERAGEIF / AVERAGEIFS**  
   Oblicza średnią na podstawie jednego lub wielu warunków.  
