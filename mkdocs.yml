@@ -1,4 +1,12 @@
-site_name: Poradnik Statystyka Exccel
+site_name: Poradnik Statystyka Excel
+nav:
+  - Strona główna: index.md
+  - Miary tendencji centralnej: tendencja.md
+  - Miary rozproszenia: rozproszenie.md
+  - Korelacje i współczynniki: korelacje.md
+  - Analiza regresji: regresja.md
+  - Inne funkcje: inne.md
+  - Testy statystyczne: testy.md
 theme:
   name: material
   palette:
