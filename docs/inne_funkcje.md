@@ -12,7 +12,7 @@
  Zwraca kwartyl zbioru danych. Kwartyle często są używane w danych o sprzedaży i w danych statystycznych do dzielenia populacji na grupy. Na przykład funkcję KWARTYL można zastosować do znalezienia górnych 25% dochodów w populacji.  
   **Przykład:** `=KWARTYL.INC(A1:A10, 3)`
 
-- **ŚREDNIA.JEŻELI / AVERAGEIFS**  
+- **ŚREDNIA.JEŻELI (`AVERAGEIFS`)**  
   Zwraca średnią (średnią arytmetyczną) wszystkich komórek z zakresu, które spełniają podane kryteria.
   **Argumenty:**  
     - **Zakres** – wymagany. Komórki do sprawdzenia według kryteriów.  
@@ -22,8 +22,6 @@
     **Przykład:** `=ŚREDNIA.JEŻELI(A1:A10, ">100")`  
     **Przykład:** `=ŚREDNIA.JEŻELIS(A1:A10, B1:B10, ">50", C1:C10, "<100")`
 
-- **LICZ.WARUNKI**
-  
+- **LICZ.WARUNKI (`COUNTIFS`)**
     Funkcja LICZ.WARUNKI stosuje kryteria do komórek w wielu zakresach i zlicza, ile razy kryteria nie zostały spełnione.
-
     **Przykład:** `=LICZ.WARUNKI(A1:A10, ">0", B1:B10, "<10")`
