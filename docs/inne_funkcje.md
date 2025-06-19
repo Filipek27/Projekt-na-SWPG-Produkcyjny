@@ -6,7 +6,7 @@
 
 - **PERCENTYL (`PERCENTILE`)**  
   Zwraca k-ty percentyl wartości w zakresie. Funkcję tę można stosować do określania progu akceptacji. Na przykład można podjąć decyzję o przebadaniu kandydatów, których wyniki są powyżej 90-ego percentylu.  
-  **Przykład:** `=ERCENTYL(A1:A10, 0.9)`
+  **Przykład:** `=PERCENTYL(A1:A10, 0.9)`
 
 - **KWARTYL (`QUARTILE.INC`, `QUARTILE.EXC`)**  
  Zwraca kwartyl zbioru danych. Kwartyle często są używane w danych o sprzedaży i w danych statystycznych do dzielenia populacji na grupy. Na przykład funkcję KWARTYL można zastosować do znalezienia górnych 25% dochodów w populacji.  
