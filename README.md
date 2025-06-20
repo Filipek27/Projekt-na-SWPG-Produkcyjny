@@ -8,6 +8,8 @@ Ten projekt to poradnik opisujący najważniejsze funkcje statystyczne Excela, z
 1. Zainstaluj MkDocs i motyw Material:
    ```
    pip install mkdocs
+   ```
+   ```
    pip install mkdocs-material
    ```
 
