@@ -5,7 +5,7 @@ nav:
   - Miary rozproszenia: rozproszenie.md
   - Korelacje i współczynniki: korelacje.md
   - Analiza regresji: regresja.md
-  - Inne funkcje: inne.md
+  - Inne funkcje: inne_funkcje.md
   - Testy statystyczne: testy.md
 theme:
   name: material

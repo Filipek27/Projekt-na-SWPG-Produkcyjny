@@ -8,7 +8,7 @@
 
 - **WARIANCJA (`VAR.S`, `VAR.P`)**  
   Kwadrat odchylenia standardowego.  
-  **Przykład:** `=VAR.S(A1:A10)`
+  **Przykład:** `=*WARIANCJA(A1:A10)`
 
 - **ZAKRES (`MAX` - `MIN`)**  
   Różnica między największą a najmniejszą wartością.  
