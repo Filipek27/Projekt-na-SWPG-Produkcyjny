@@ -61,9 +61,9 @@ Microsoft Excel oferuje wiele funkcji statystycznych, które pozwalają szybko a
   Zwraca wartości przewidywane na podstawie trendu liniowego.  
   **Przykład:** `=TREND(B1:B10, A1:A10)`
 
-- **LINEST**  
+- **REGLINP**  
   Zwraca współczynniki prostej regresji (nachylenie, przecięcie).  
-  **Przykład:** `=LINEST(B1:B10, A1:A10, TRUE, TRUE)`
+  **Przykład:** `=REGLINP(B1:B10, A1:A10, TRUE, TRUE)`
 
 ## 🧮 Inne funkcje statystyczne
 
