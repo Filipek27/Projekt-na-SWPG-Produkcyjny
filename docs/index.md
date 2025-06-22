@@ -79,14 +79,14 @@ Microsoft Excel oferuje wiele funkcji statystycznych, które pozwalają szybko a
   Oblicza kwartyle (np. Q1, Q2, Q3).  
   **Przykład:** `=KWARTYL.PRZED.ZAMK(A1:A10, 3)`
 
-- **AVERAGEIF / AVERAGEIFS**  
+- **AŚREDNIA.JEŻELI / AVERAGEIFS**  
   Oblicza średnią na podstawie jednego lub wielu warunków.  
-  **Przykład:** `=AVERAGEIF(A1:A10, ">100")`  
-  **Przykład:** `=AVERAGEIFS(A1:A10, B1:B10, ">50", C1:C10, "<100")`
+  **Przykład:** `=ŚREDNIA.JEŻELI(A1:A10, ">100")`  
+  **Przykład:** `=ŚREDNIA.JEŻELIS(A1:A10, B1:B10, ">50", C1:C10, "<100")`
 
-- **COUNTIFS**  
+- **Liczjeżeli**  
   Liczy komórki spełniające wiele warunków.  
-  **Przykład:** `=COUNTIFS(A1:A10, ">0", B1:B10, "<10")`
+  **Przykład:** `=Liczjeżeli(A1:A10, ">0", B1:B10, "<10")`
 
 ## 🧪 Testy statystyczne
 
