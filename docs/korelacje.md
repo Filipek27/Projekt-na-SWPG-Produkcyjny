@@ -6,4 +6,4 @@
 
 - **R.KWADRAT (`RSQ`)**  
   Oblicza współczynnik determinacji \( R^2 \). Wartość R-kwadrat można zinterpretować jako proporcję wariancji y przypisywaną do wariancji x.  
-  **Przykład:** `=RSQ(A1:A10, B1:B10)`
+  **Przykład:** `=R.KWADRAT(A1:A10, B1:B10)`
