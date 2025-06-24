@@ -2,23 +2,24 @@
 
 - **ODCHYLENIE STANDARDOWE (`STDEV.S`, `STDEV.P`)**  
   Mierzy, jak bardzo wartości różnią się od średniej.  
-  - `STDEV.S` – dla próbki  
-  - `STDEV.P` – dla całej populacji  
-  **Przykład:** `=STDEV.S(A1:A10)`
+    - `ODCH.STANDARD.PRÓBKI` (`STDEV.S`) – dla próbki  
+    - `ODCH.STANDARD.POPUL` `(STDEV.P)` – dla całej populacji  
 
-- **WARIANCJA (`VAR.S`, `VAR.P`)**  
+    **Przykład:** `=ODCH.STANDARD.PRÓBKI(A1:A10)`
+
+- **WARIANCJA.PRÓBKI / WARIANCJA.POPUL (`VAR.S` / `VAR.P`)**  
   Kwadrat odchylenia standardowego.  
-  **Przykład:** `=VAR.S(A1:A10)`
+  **Przykład:** `=WARIANCJA.PRÓBKI(A1:A10)`
 
 - **ZAKRES (`MAX` - `MIN`)**  
   Różnica między największą a najmniejszą wartością.  
   **Przykład:** `=MAX(A1:A10)-MIN(A1:A10)`
 
-- **LARGE / SMALL**  
+- **MAX.K / MIN.K (`LARGE` / `SMALL`)**  
   Zwraca n-tą największą lub najmniejszą wartość w zbiorze.  
-  **Przykład:** `=LARGE(A1:A10, 2)`  
-  **Przykład:** `=SMALL(A1:A10, 1)`
+  **Przykład:** `=MAX.K(A1:A10, 2)`  
+  **Przykład:** `=MIN.K(A1:A10, 1)`
 
-- **RANK.EQ / RANK.AVG**  
+- **POZYCJA.NAJW / POZYCJA.ŚR (`RANK.EQ` / `RANK.AVG`)**  
   Określa pozycję liczby w zbiorze danych.  
-  **Przykład:** `=RANK.EQ(A1, A1:A10)`
+  **Przykład:** `=POZYCJA.ŚR(A1, A1:A10)`
