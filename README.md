@@ -1,7 +1,9 @@
 # Projekt-na-SWGP
 # Poradnik Statystyka Excel
 
-AUTORZY FILIP KASPRZYCKI | SZYMON MOSKWA
+AUTORZY :
+Lider -FILIP KASPRZYCKI 
+SZYMON MOSKWA
 
 Ten projekt to poradnik opisujący najważniejsze funkcje statystyczne Excela, z przykładami i krótkimi wyjaśnieniami. Dokumentacja generowana jest za pomocą [MkDocs](https://www.mkdocs.org/) z motywem Material.
 
