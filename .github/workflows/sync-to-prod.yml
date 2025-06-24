@@ -1,0 +1,19 @@
+name: Sync Dev to Prod
+on:
+  push:
+    branches: [main]  # gdy kod jest gotowy w gałęzi main dev
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev repo
+        uses: actions/checkout@v4
+        with:
+          repository: Filipek27/Projekt-na-SWPG-Developerskie
+          ref: main
+      - name: Push to prod repo
+        run: |
+          git remote add prod https://github.com/Filipek27/Projekt-na-SWPG-Produkcyjny.git
+          git push prod main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # wymagane uprawnienia
