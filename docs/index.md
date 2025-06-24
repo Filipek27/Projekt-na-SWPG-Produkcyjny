@@ -17,7 +17,7 @@ To praktyczne kompendium wiedzy zostało stworzone z myślą o analitykach, stud
 🎯 Dla kogo jest ta dokumentacja?
 Dla początkujących, którzy chcą nauczyć się, czym jest ŚREDNIA czy ODCH.STANDARD.PRÓBKI.
 
-Dla zaawansowanych użytkowników, którzy analizują dane sprzedażowe, wyniki badań czy raporty finansowe.
+Dla użytkowników, którzy analizują dane sprzedażowe, wyniki badań czy raporty finansowe.
 
 Dla nauczycieli i wykładowców, którzy chcą wskazać studentom praktyczne narzędzia do analizy danych.
 
